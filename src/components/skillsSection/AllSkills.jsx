@@ -1,74 +1,69 @@
-import SingleSkill from "./SingleSkill";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { FaHandshake } from "react-icons/fa";
+import { FaUniversity } from "react-icons/fa";
+import { FaBusinessTime } from "react-icons/fa";
+import { FaRegAddressCard } from "react-icons/fa";
+import { MdOutlineLanguage } from "react-icons/md";
+import { RiTeamFill } from "react-icons/ri";
+import { BsFillClipboardCheckFill } from "react-icons/bs";
+import { AiOutlineCustomerService } from "react-icons/ai";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
   {
-    skill: "HTML",
-    icon: FaHtml5,
+    skill: "Government Relations",
+    icon: FaRegAddressCard,
   },
   {
-    skill: "CSS",
-    icon: FaCss3Alt,
+    skill: "Public Relations",
+    icon: FaHandshake,
   },
   {
-    skill: "JavaScript",
-    icon: IoLogoJavascript,
+    skill: "Operational Efficiency",
+    icon: FaBusinessTime,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
+    skill: "Leadership & Team Management",
+    icon: RiTeamFill,
   },
   {
-    skill: "ReactJS",
-    icon: FaReact,
+    skill: "Multilingual Communication",
+    icon: MdOutlineLanguage,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "Regulatory Compliance",
+    icon: FaUniversity,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
+    skill: "Problem Solving",
+    icon: BsFillClipboardCheckFill,
   },
   {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    skill: "Customer Relations",
+    icon: AiOutlineCustomerService,
   },
 ];
 
-const AllSkills = () => {
+const AllSkillsSM = () => {
   return (
-    <div>
-      <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
-        {skills.map((item, index) => {
-          return (
-            <motion.div
-              variants={fadeIn("up", `0.${index}`)}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: false, amount: 0 }}
-              key={index}
-            >
-              <SingleSkill
-                key={index}
-                text={item.skill}
-                imgSvg={<item.icon />}
-              />
-            </motion.div>
-          );
-        })}
-      </div>
+    <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12">
+      {skills.map((item, index) => {
+        return (
+          <motion.div
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.7 }}
+            key={index}
+            className="flex flex-col items-center text-center"
+          >
+            <item.icon className="text-7xl text-orange" />
+            <p className="mt-4 text-sm sm:text-md break-words">{item.skill}</p>
+          </motion.div>
+        );
+      })}
     </div>
   );
 };
 
-export default AllSkills;
+export default AllSkillsSM;

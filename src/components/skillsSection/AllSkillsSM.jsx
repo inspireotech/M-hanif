@@ -1,46 +1,46 @@
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { FaHandshake } from "react-icons/fa";
+import { FaUniversity } from "react-icons/fa";
+import { FaBusinessTime } from "react-icons/fa";
+import { FaRegAddressCard } from "react-icons/fa";
+import { MdOutlineLanguage } from "react-icons/md";
+import { RiTeamFill } from "react-icons/ri";
+import { BsFillClipboardCheckFill } from "react-icons/bs";
+import { AiOutlineCustomerService } from "react-icons/ai";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
   {
-    skill: "HTML",
-    icon: FaHtml5,
+    skill: "Government Relations",
+    icon: FaRegAddressCard,
   },
   {
-    skill: "CSS",
-    icon: FaCss3Alt,
+    skill: "Public Relations",
+    icon: FaHandshake,
   },
   {
-    skill: "JavaScript",
-    icon: IoLogoJavascript,
+    skill: "Operational Efficiency",
+    icon: FaBusinessTime,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
+    skill: "Leadership & Team Management",
+    icon: RiTeamFill,
   },
   {
-    skill: "ReactJS",
-    icon: FaReact,
+    skill: "Multilingual Communication",
+    icon: MdOutlineLanguage,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "Regulatory Compliance",
+    icon: FaUniversity,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
+    skill: "Problem Solving",
+    icon: BsFillClipboardCheckFill,
   },
   {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    skill: "Customer Relations",
+    icon: AiOutlineCustomerService,
   },
 ];
 

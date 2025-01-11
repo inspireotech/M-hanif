@@ -4,14 +4,12 @@ const ExperienceTopRight = () => {
       <p className="text-lg text-center text-lightGrey">
         I specialize in{" "}
         <span className="font-bold text-white">
-          React and modern JavaScript
+          Government Relations and Public Relations
         </span>
-        , leveraging best practices to create scalable and maintainable
-        solutions. <br />
-        My experience spans working on diverse projects, from small business
-        websites to{" "}
-        <span className="font-bold text-white">complex front-end systems</span>,
-        always aiming for clean code and exceptional user experiences.
+        , ensuring compliance and fostering strong connections with government entities. <br />
+        My experience spans working on diverse projects, from managing{" "}
+        <span className="font-bold text-white">regulatory compliance</span> to coordinating
+        operational efficiencies, always aiming for excellence and professionalism in every task.
       </p>
     </div>
   );

@@ -5,31 +5,31 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Streamlined Visa Processing",
+    year: "2021",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "https://www.vecteezy.com/photo/24637201-american-visa-closeup", // Example of documents and processing
     link: "#",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Etisalat Fleet Management",
+    year: "2019",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: "", // Fleet of vehicles
     link: "#",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "City One Tourism Coordination",
+    year: "2014",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "", // Scenic touristic location
     link: "#",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "Desert Driving Training Program",
+    year: "2010",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "", // Desert driving
     link: "#",
   },
 ];

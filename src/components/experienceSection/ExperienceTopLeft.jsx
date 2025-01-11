@@ -4,18 +4,17 @@ const ExperienceTopLeft = () => {
   return (
     <div className="flex flex-col gap-6 w-[300px]">
       <p className="text-orange font-bold uppercase text-3xl font-special text-center">
-        Since 2022
+        Since 2001
       </p>
       <div className="flex justify-center items-center gap-4">
-        <ExperienceInfo number="3" text="Years" />
+        <ExperienceInfo number="20+" text="Years" />
         <p className="font-bold text-6xl text-lightBrown">-</p>
-        <ExperienceInfo number="23" text="Websites" />
+        <ExperienceInfo number="50+" text="Projects" />
       </div>
       <p className="text-center">
-        With 3 years of experience building dynamic and user-friendly web
-        applications.
+        With over 20 years of experience in government relations, public relations, and operational management, delivering impactful results across diverse industries.
       </p>
-      <ExperienceInfo number="$100k" text="Max Budget" />
+      <ExperienceInfo number="500+" text="Team Members Supported" />
     </div>
   );
 };
