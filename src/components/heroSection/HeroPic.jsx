@@ -12,7 +12,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/HexaPic.png"
+        src="https://firebasestorage.googleapis.com/v0/b/inspireotech-logo.appspot.com/o/HexaPic.png?alt=media&token=8d290b4e-97df-42ac-a59e-4a049bfe00d1"
         alt="Mohammed Hanif"
         className="max-h-[450px] w-auto"
       />

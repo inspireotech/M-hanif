@@ -3,7 +3,7 @@ const AboutMeImage = () => {
     <div className="h-[500px] w-[300px] relative">
       <div className="h-[500px] w-[300px] rounded-[100px] absolute overflow-hidden">
         <img
-          src="../../public/images/about-me.jpg"
+          src="https://firebasestorage.googleapis.com/v0/b/inspireotech-logo.appspot.com/o/about-me.jpg?alt=media&token=14a556b8-19a7-4ae4-a3cb-70670d22b182"
           alt="About Me Image"
           className="h-full w-auto object-cover"
         />
