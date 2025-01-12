@@ -8,28 +8,28 @@ const projects = [
     name: "Streamlined Visa Processing",
     year: "2021",
     align: "right",
-    image: "https://www.vecteezy.com/photo/24637201-american-visa-closeup", // Example of documents and processing
+    image: "https://firebasestorage.googleapis.com/v0/b/inspireotech-logo.appspot.com/o/streamline-visa-processing.jpg?alt=media&token=cf41271b-ab41-4b6b-819d-30ab63714e85", // Example of documents and processing
     link: "#",
   },
   {
     name: "Etisalat Fleet Management",
     year: "2019",
     align: "left",
-    image: "", // Fleet of vehicles
+    image: "https://firebasestorage.googleapis.com/v0/b/inspireotech-logo.appspot.com/o/Etisalat-2-.jpeg?alt=media&token=4b79485c-30ee-4f0e-8b12-d65273fc3185", // Fleet of vehicles
     link: "#",
   },
   {
     name: "City One Tourism Coordination",
     year: "2014",
     align: "right",
-    image: "", // Scenic touristic location
+    image: "https://firebasestorage.googleapis.com/v0/b/inspireotech-logo.appspot.com/o/cityonetourism_cover.jpeg?alt=media&token=c713e2bf-bec1-4d6e-a4e9-5a5996cbc9b6", // Scenic touristic location
     link: "#",
   },
   {
     name: "Desert Driving Training Program",
     year: "2010",
     align: "left",
-    image: "", // Desert driving
+    image: "https://firebasestorage.googleapis.com/v0/b/inspireotech-logo.appspot.com/o/Best_Cars_for_Desert_Driving_12022021.jpg?alt=media&token=87635c17-9752-4970-9fb4-31b62521c320", // Desert driving
     link: "#",
   },
 ];

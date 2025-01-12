@@ -1,3 +1,4 @@
+import SingleSkill from "./SingleSkill";
 import { FaHandshake } from "react-icons/fa";
 import { FaUniversity } from "react-icons/fa";
 import { FaBusinessTime } from "react-icons/fa";
@@ -44,26 +45,31 @@ const skills = [
   },
 ];
 
-const AllSkillsSM = () => {
+const AllSkills = () => {
   return (
-    <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12">
-      {skills.map((item, index) => {
-        return (
-          <motion.div
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: false, amount: 0.7 }}
-            key={index}
-            className="flex flex-col items-center text-center"
-          >
-            <item.icon className="text-7xl text-orange" />
-            <p className="mt-4 text-sm sm:text-md break-words">{item.skill}</p>
-          </motion.div>
-        );
-      })}
+    <div>
+      <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
+        {skills.map((item, index) => {
+          return (
+            <motion.div
+              variants={fadeIn("up", `0.${index}`)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0 }}
+              key={index}
+            >
+              <SingleSkill
+                key={index}
+                text={item.skill}
+                imgSvg={<item.icon />}
+              />
+            </motion.div>
+          );
+        })}
+      </div>
     </div>
   );
 };
 
-export default AllSkillsSM;
+export default AllSkills;
+
